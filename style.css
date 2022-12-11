@@ -1,0 +1,304 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: rgb(50, 49, 49);
+}
+
+.container {
+  width: 90%;
+  margin: auto;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+.button {
+  position: relative;
+}
+
+.line {
+  width: 16px;
+  height: 6px;
+  background-color: rgb(0, 0, 0);
+  position: absolute;
+  top: 2.1rem;
+  left: 0;
+}
+
+.back-image {
+  background-image: url("images/computerguy.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+
+  width: 100%;
+  height: 100vh;
+}
+nav {
+  margin: 0;
+  line-height: 1rem;
+  font-size: 1.5rem;
+  font-weight: bolder;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+}
+
+.navbrand {
+  padding: 1rem;
+  border-radius: 0.3rem;
+}
+
+.navbrand:hover {
+  background-color: rgba(132, 195, 237, 0.5);
+}
+
+.nav-items {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+.nav-link {
+  padding: 0.5rem;
+  border-radius: 0.3rem;
+}
+.nav-link:hover {
+  background-color: rgba(132, 195, 237, 0.5);
+}
+
+.hello {
+  width: 30rem;
+  position: absolute;
+  top: 12rem;
+  left: 14rem;
+  padding: 1rem;
+  background: rgba(132, 195, 237, 0.5);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(2px);
+
+  border-radius: 1rem;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+.helloword {
+  line-height: 2rem;
+  display: flex;
+  justify-content: center;
+}
+
+.hello-para {
+  line-height: 1.5rem;
+}
+
+.button {
+  display: block;
+  padding: 1rem 1.5rem;
+  font-size: 2rem;
+  position: absolute;
+  top: 10rem;
+  left: 14rem;
+  color: black;
+  border-radius: 1rem;
+  background: rgba(132, 195, 237, 0.5);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(3px);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+/* ABOUT */
+
+.about-img {
+  background-image: url(images/smile.jpg);
+  background-repeat: none;
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+}
+
+.about {
+  position: relative;
+}
+
+.aboutcontent {
+  width: 30rem;
+  position: absolute;
+  top: 12rem;
+  right: 5rem;
+  padding: 1rem;
+  border-radius: 1rem;
+  background: rgba(132, 195, 237, 0.5);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(3px);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+.aboutword {
+  display: flex;
+  justify-content: center;
+  line-height: 2rem;
+}
+
+.about-para {
+  line-height: 1.5rem;
+}
+
+.button {
+  display: block;
+  padding: 1rem 1.5rem;
+  font-size: 2rem;
+  position: absolute;
+  top: 10rem;
+  left: 12rem;
+  color: black;
+  border-radius: 1rem;
+  background: rgba(252, 203, 57, 0.8);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(3px);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+/* Services */
+
+.services {
+  background-color: silver;
+  padding: 2rem 0 4rem 0;
+}
+
+.services h3 {
+  line-height: 2rem;
+  font-size: 2rem;
+  text-align: center;
+}
+
+.images {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-auto-rows: 200px;
+  gap: 0.6rem;
+  padding: 1.5rem;
+}
+
+.s-img {
+  border: 0.4rem solid whitesmoke;
+  box-shadow: 4px 8px 32px 0 rgb(77, 77, 77);
+}
+
+.img1 {
+  background-image: url("images/height.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  grid-row: span 2;
+}
+
+.img1:hover {
+}
+
+.img2 {
+  background-image: url("images/seo.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  object-fit: cover;
+}
+.img3 {
+  background-image: url("images/web.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  object-fit: cover;
+}
+.img4 {
+  background-image: url("images/marketing.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  object-fit: cover;
+}
+.img5 {
+  background-image: url("images/desugn.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  object-fit: cover;
+}
+.img6 {
+  background-image: url("images/code1.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  object-fit: cover;
+  grid-column: span 3;
+}
+
+/* Contact? */
+
+.contact-wrapper {
+  background: url("images/computer.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 2rem;
+}
+.contact {
+  width: 40%;
+  margin: auto;
+  padding: 1rem;
+  text-align: center;
+  border-radius: 1rem;
+  transform: rotate(-15deg);
+
+  background: rgba(204, 231, 246, 0.25);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(2.5px);
+  border: 3px solid rgb(218, 217, 217);
+}
+
+.contact h3 {
+  line-height: 1rem;
+  font-size: 2rem;
+  padding-bottom: 1rem;
+}
+
+.contact-form form {
+  display: flex;
+  flex-direction: column;
+}
+
+input,
+textarea,
+button {
+  line-height: 1rem;
+  margin: 1rem 0;
+  font-size: 1.1rem;
+  padding: 1rem 0.3rem;
+  border-radius: 0.5rem;
+  border: none;
+}
+
+button {
+  background: rgba(252, 203, 57, 0.8);
+}
+
+/* FOOTER  */
+
+.footer {
+  background-color: silver;
+  padding: 1rem;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1rem;
+  font-weight: 100;
+}
